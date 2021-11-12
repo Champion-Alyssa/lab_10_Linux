@@ -1,0 +1,10 @@
+#!/bin/bash
+
+[Unit]
+Description=This service will allow you to view the current weather
+
+[Service]
+ExecStart=/home/vagrant/Documents/week10/weatherFile
+
+[Install]
+WantedBy=multi-user.target
